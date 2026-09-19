@@ -74,6 +74,53 @@
 
 ![alt text](image-21.png)
 
+## Batching (Multiple requests to handle once)
+![alt text](image-22.png)
+
+## million user hit at a time problem/ challenges
+
+![alt text](image-23.png)
+
+
+## how to handle Big modes in GPU (700 GB)
+
+![alt text](image-24.png)
+![alt text](image-25.png)
+### How we split the Model in GPU (VLLM)
+![alt text](image-26.png)
+
+## Sharding 
+
+![alt text](image-27.png)
+
+
+## Load Balanceing failed in LLM model because
+![alt text](image-30.png)
+
+    - no 2 request is same
+    - can't use of KV cache
+![alt text](image-28.png)
+
+## LLM-D
+
+![alt text](image-29.png)
+
+    - It resolved the limitation of load balancer
+        - Memory full
+        - Cache Where
+        - Queue Depth 
+
+
+## Kuberneter Leader-Worker -Set
+
+![alt text](image-31.png)
+
+    - It scale up / down as a unit.
+![alt text](image-32.png)
+![alt text](image-33.png)
+
+![alt text](image-34.png)
+
 
 Reference:-
 - https://www.youtube.com/watch?v=hBzUokVYQkI
